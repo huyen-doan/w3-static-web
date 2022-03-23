@@ -1,0 +1,77 @@
+.body {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.box {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    height: 300px;
+    width: 700px;
+    text-align: center;
+}
+.box {
+    border: 1px solid wheat;
+    background-color: white;
+    border-radius: 20px;
+}
+.box .quote label {
+    position: absolute;
+    top: 30%;
+    left: 20px;
+}
+.box .author label {
+    position: absolute;
+    top: 60%;
+    left: calc(100% - 150px);
+}
+.quote {
+    font-weight: 500;
+    color: darkblue;
+    font-size: 2rem;
+}
+.quote label {
+    display: block;
+}
+.author {
+    font-style: italic;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.button {
+    width: 80%;
+    position: relative;
+    top: 80%;
+}
+.btn {
+    display: inline-block;
+}
+.btn-share {
+    float: left;
+}
+.change-quote {
+    float: right;
+}
+.btn-twitter {
+    border: 1px solid rgb(36, 131, 255);;
+    border-radius: 3px;
+    padding: 5px 10px;
+    background-color: rgb(36, 131, 255);
+    color: white;
+    text-decoration: none;
+    float: left;
+}
+#changeQuote {
+    background-color: #4CAF50; /* Green */
+    border: 1px solid #4CAF50;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    float: right;
+}
+#changeQuote:hover {
+    cursor: pointer;
+}
